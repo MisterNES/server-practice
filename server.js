@@ -29,7 +29,7 @@ http.createServer(function(req, res) {
         console.log("Server Error")
         res.writeHead(500);
         res.end();
-    } else if(req.url === "/Moved-Permanenetly"){
+    } else if(req.url === "/Moved-Permanently"){
         console.log("Moved Permanently");
         res.writeHead(301);
         res.end();
